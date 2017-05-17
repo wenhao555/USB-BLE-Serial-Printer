@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">荣达打印</string>
+    <string name="has_paired">Scan...</string>
+    <string name="has">Bounded</string>
+    <string name="not_paired">noBounded</string>
+    <string name="printerName">deviceName:noDevice</string>
+    <string name="printerAddress">deviceAddress:noAddress</string>
+    <string name="none_found">noFoundDevice</string>
+</resources>

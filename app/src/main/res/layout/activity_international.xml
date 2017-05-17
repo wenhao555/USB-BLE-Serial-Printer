@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_international"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xkdx.serial_test.International">
+
+    <RadioGroup
+        android:id="@+id/inter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/China"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="中国" />
+
+        <RadioButton
+            android:id="@+id/USA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="美国" />
+
+        <RadioButton
+            android:id="@+id/France"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="法国" />
+
+        <RadioButton
+            android:id="@+id/Germany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="德国" />
+
+        <RadioButton
+            android:id="@+id/UK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="英国" />
+
+        <RadioButton
+            android:id="@+id/Denmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="丹麦 I" />
+
+        <RadioButton
+            android:id="@+id/Sweden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="瑞典" />
+
+        <RadioButton
+            android:id="@+id/Italy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="意大利" />
+
+        <RadioButton
+            android:id="@+id/SpainI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="西班牙 I" />
+
+        <RadioButton
+            android:id="@+id/Japan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="日本" />
+
+        <RadioButton
+            android:id="@+id/Norway"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="挪威" />
+
+        <RadioButton
+            android:id="@+id/DenmarkII"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="丹麦 II" />
+
+        <RadioButton
+            android:id="@+id/SpainII"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="西班牙 II" />
+
+        <RadioButton
+            android:id="@+id/Latin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="拉丁美洲" />
+
+        <RadioButton
+            android:id="@+id/Korea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="韩国" />
+
+        <RadioButton
+            android:id="@+id/Slovnia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="斯洛文尼亚" />
+
+
+    </RadioGroup>
+</RelativeLayout>

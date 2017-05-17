@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_font_topand_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.xkdx.serial_test.FontTopandBottom">
+
+    <RadioGroup
+        android:id="@+id/FontGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/type_6x8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="6x8字符集1" />
+
+        <RadioButton
+            android:id="@+id/type_6x8_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="6x8字符集2" />
+
+        <RadioButton
+            android:id="@+id/ASCII"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ASCII" />
+
+        <RadioButton
+            android:id="@+id/Chinese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="汉字" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/isShx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否添加上划线" />
+
+    <CheckBox
+        android:id="@+id/shiXhx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否添加下划线" />
+
+    <CheckBox
+        android:id="@+id/isBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否为黑体" />
+
+    <CheckBox
+        android:id="@+id/isFanBai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否反白" />
+
+    <CheckBox
+        android:id="@+id/isJiaCu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否加粗" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="倍宽："
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Bk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="请输入倍宽"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="倍高："
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Bg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="请输入倍高"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
