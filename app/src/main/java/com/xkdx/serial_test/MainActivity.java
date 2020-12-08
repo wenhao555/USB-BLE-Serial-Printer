@@ -3,6 +3,7 @@ package com.xkdx.serial_test;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -15,7 +16,7 @@ import android.os.Message;
 import android.view.KeyEvent;
 import android.view.View;
 import android.os.Handler;
-import android.support.v7.app.AlertDialog;
+import android.app.AlertDialog;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -86,7 +87,7 @@ public class MainActivity extends Activity {
     private int t;//上/下对齐
     private int h;
     private static boolean isLine = false;
-    public static boolean isChoose = false;
+       public static boolean isChoose = false;
     private static PrinterIntence myPrinter;
     private ProgressDialog mDialog;
     private String[] entries;//得到所有的address
@@ -102,7 +103,7 @@ public class MainActivity extends Activity {
         crashHandler.init(getApplicationContext());
         setContentView(R.layout.activity_main);
         sb = new StringBuilder();
-        mContext = this;
+                 mContext = this;
         myPrinter = PrinterIntence.mPrinter;
         convertor = new BitmapConvertor(this);
         //接收的信息
@@ -111,7 +112,7 @@ public class MainActivity extends Activity {
         zhijiance = (TextView) findViewById(R.id.zhijiance);
         working = (TextView) findViewById(R.id.working);
         huanchong = (TextView) findViewById(R.id.huanchong);
-        zhuangtai = (TextView) findViewById(R.id.zhuangtai);
+           zhuangtai = (TextView) findViewById(R.id.zhuangtai);
         mEdit = (EditText) findViewById(R.id.mEdit);
         mDialog = new ProgressDialog(mContext);
         mySpinner = (Spinner) findViewById(R.id.mySpinner);
@@ -400,7 +401,7 @@ public class MainActivity extends Activity {
     private void international() {
         AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
         builder.setTitle("设置国际字符集");
-        View internat = getLayoutInflater().inflate(R.layout.activity_international, null);
+           View internat = getLayoutInflater().inflate(R.layout.activity_international, null);
         RadioGroup inter = (RadioGroup) internat.findViewById(R.id.inter);
         int country = PrefUtils.getInt(mContext, "country", 15);
         switch (country) {

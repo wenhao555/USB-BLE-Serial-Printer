@@ -2,7 +2,7 @@ package com.xkdx.serial_test;
 
 import android.content.Intent;
 import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;

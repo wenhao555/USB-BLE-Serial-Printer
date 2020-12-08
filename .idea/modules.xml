@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Serial_test.iml" filepath="$PROJECT_DIR$/Serial_test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/USB-BLE-Serial-Printer.iml" filepath="$PROJECT_DIR$/.idea/modules/USB-BLE-Serial-Printer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/USB-BLE-Serial-Printer.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/USB-BLE-Serial-Printer.app.iml" />
     </modules>
   </component>
 </project>
